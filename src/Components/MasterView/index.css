@@ -1,0 +1,147 @@
+
+
+
+.m-v-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-bottom: 30px;
+}
+
+
+.nav-setions{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    border-bottom: 1px solid #bfbfbb;
+}
+@media (min-width: 577px) {
+    .nav-setions{
+        width: 70%;
+    }
+}
+.master-page{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(34, 99, 99)
+}
+@media (min-width: 577px) {
+    .master-page{
+        font-size: 38px;
+    }
+}
+.cal-section{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+@media (max-width: 767px){
+    .cal-section{
+        flex-direction: column;
+    }
+}
+.mv-form{
+    width: 350px;
+    border: 1px solid rgb(105, 104, 104);
+    box-shadow: 0px 15px 16px 0px #bfbfbb;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+}
+@media (max-width: 576px){
+    .mv-form{
+        width: 90%;
+        margin-top: 50px;
+    }
+}
+.label-left-operand{
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(26, 28, 30);
+}
+.select-ele{
+    font-family:'Courier New', Courier, monospace;
+    height: 35px;
+    margin-top: 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    color:#1e1c1c;
+    padding: 5px;
+    font-size: 15px;
+}
+.submit-btn{
+    color: #ffffff;
+    background-color: #5dd73b;
+    font-weight: bold;
+    border: none;
+    height: 35px;
+    border-radius: 10px;
+}
+
+
+.botton-section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+@media (max-width: 576px){
+    .botton-section{
+    flex-direction: column;
+    margin-top: 20px;
+        margin-left: 0;
+  
+
+}
+}
+.list-of-tasks{
+    font-size: 20px;
+}
+
+
+.ol-list{
+    padding-left: 0px;
+    margin-top: 0px;
+
+}
+.save-btn{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+    height: 35px;
+    width: 90px;
+    background-color: rgb(34, 99, 99);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.list-item{
+    width: 250px;
+    border: 1px solid rgb(115, 115, 115);
+    height: 40px;
+    text-align: center;
+    padding-top: 8px;
+    margin-bottom: 10px;
+}
+
+.logout-btn{
+    width: 60px;
+    height: 25px;
+    font-size: 12px;
+    background-color:rgb(154, 76, 76);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 400;
+
+ 
+}

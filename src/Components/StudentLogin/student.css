@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+.st-login-page-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at 100%, #333, #333 50%, #eee 75%, #333 75%);
+}
+.st-login-form{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 8px 4px 0px #6a6464;
+    padding: 30px;
+    background-color: white;
+}
+.st-label-text{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.st-input-element{
+    width: 90%;
+    height: 35px;
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #807d7d;
+    border-radius: 5px;
+}
+.st-login-btn{
+    width: 90%;
+    height: 35px;
+    margin-top: 30px;
+    background-color: rgb(115, 134, 219);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+.st-err-msg{
+    color: red;
+    margin-top: 2px;
+    font-size: 14px;
+}
